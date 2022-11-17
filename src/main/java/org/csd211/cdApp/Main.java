@@ -7,7 +7,7 @@ package org.csd211.cdApp;
 
 /**
  *
- * @author fcarella
+ * @author fcarella, November 2022
  */
 public class Main {
     public static void main(String[] args) {
