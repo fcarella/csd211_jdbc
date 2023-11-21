@@ -100,13 +100,13 @@ public class App {
             stmt = con.createStatement();
 
             stmt.executeUpdate("insert into " + TABLE_NAME + " "
-                    + "values(1, '5150', 'Van Halen')");
+                    + "values(1, '5150_1', 'Van Halen')");
             stmt.executeUpdate("insert into " + TABLE_NAME + " "
-                    + "values(2, '1984', 'Van Halen')");
+                    + "values(2, '1984_1', 'Van Halen')");
             stmt.executeUpdate("insert into " + TABLE_NAME + " "
-                    + "values(3, 'Back in Black', 'AC/DC')");
+                    + "values(3, 'Back in Black_1', 'AC/DC')");
             stmt.executeUpdate("insert into " + TABLE_NAME + " "
-                    + "values(4, 'Full Bluntal Nugity', 'Ted Nugent')");
+                    + "values(4, 'Full Bluntal Nugity_1', 'Ted Nugent')");
 
         } finally {
             stmt.close();
